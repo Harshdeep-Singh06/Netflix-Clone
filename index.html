@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Netflix</title>
 </head>
 <body>
     <section class="w-[100%] h-[100vh] bg-[url('images/bg.jpg')] bg-no-repeat bg-center bg-cover">
         <div class ="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
-        <header class="max-w-[1200px] mx-auto px-6">
+        <header class="max-w-[1200px] mx-auto px-6 ">
         <div class="flex items-center justify-between">
             <figure>
-                <img src="images/-logo.svg" alt="Netfilx logo" class="w-50">
+                <img src="images/-logo.svg" alt="Netfilx logo" class="[w-50]">
             </figure>
-            <div></div>
+            <div class="flex justify end gap-[10px]">
+                <div class="relative">
+                    <i class="fa-solid fa-globe text-white absolute top-[9px] left-[5px]"></i>
+                    <select name="" id="" class="bg-[black] text-white border-[1px] border-[white] sm:p-[5px_25px] p-[5px_20px] rounded-[5px] ">
+                        <option value="">English</option>
+                <option value="">Hindi</option>
+                </select>
+            </div>
+                <button class="bg-red-600 px-[10px] rounded-[5px] text-white">Sign In</button>
+            </div>
             </div>
             </header>
         </div>
