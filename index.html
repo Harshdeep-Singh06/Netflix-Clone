@@ -51,18 +51,25 @@
                     </h2>
                     <p class="sm:text-[25px] text-[20px] pt-[30px]">Watch on smart TVs. Playstation, Xbox, Chromecast,<br> Apple Tv, Blue ray players and more.</p>
                 </div>
-                <figure class="flex justify-center">
-                    <video class="absolute w-[80%] mt-[20%] md:w-[495px]
-                    mt-[99.5px]">
-                        <source src="images/Well-here-we-are.mp4">
-                    </video>
-                  <img src="images/tv.avif" alt="" class="w-full max-[w-500]" >
-                </figure>
+                <figure class="relative flex justify-center">
+    <video
+        class="absolute w-[80%] md:w-[495px] top-[20%] left-1/2 -translate-x-1/2 z-10"
+        autoplay
+        muted
+        loop
+        playsinline
+    >
+        <source src="images/Well-here-we-are.mp4" type="video/mp4">
+    </video>
+
+    <img class="" src="images/tv.avif" class="relative z-20 w-full max-w-[500px]">
+</figure>
+
             </div>
         </div>
     </section>
     
-    <section class="border-t-[8px] border-[#333] sm:py-[100px] py-[50px] w-full bg-black">
+    <section class="border-t-[8px] border-[#333] sm:py-[10px] py-[50px] w-full bg-black">
         <div class="max-w-[1170px] mx-auto px-[15px] ">
             <div class="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                 
