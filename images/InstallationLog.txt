@@ -1,0 +1,12 @@
+************************************* Invoked: Tue Jan 20 22:09:28 2026
+[0] Arguments: C:\Users\harsh\OneDrive\Documents\Tailwind-css\images\msys2-x86_64-20251213.exe
+[6] Operations sanity check succeeded.
+[7] Warning: Cannot create lock file "C:\Users\harsh\AppData\Local\Temp\msys2-x86_64-202512131234865.lock": The process cannot access the file because it is being used by another process.
+ (0x00000020)
+[35] UnableToStart : Unable to start installer : Another msys2-x86_64-20251213 instance is already running. Wait until it finishes, close it, or restart your system.
+************************************* Invoked: Tue Jan 20 22:09:47 2026
+[0] Arguments: C:\Users\harsh\OneDrive\Documents\Tailwind-css\images\msys2-x86_64-20251213.exe
+[10] Operations sanity check succeeded.
+[10] Warning: Cannot create lock file "C:\Users\harsh\AppData\Local\Temp\msys2-x86_64-202512131234865.lock": The process cannot access the file because it is being used by another process.
+ (0x00000020)
+[40] UnableToStart : Unable to start installer : Another msys2-x86_64-20251213 instance is already running. Wait until it finishes, close it, or restart your system.
