@@ -15,5 +15,5 @@ I am learning frontend development and wanted to practice real website design.
 
 ## Preview
 
-![Project Screenshot](preview.png)
+![Project Screenshot](images/preview.png)
 
