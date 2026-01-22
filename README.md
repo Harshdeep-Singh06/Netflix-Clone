@@ -12,3 +12,4 @@ This is a Netflix landing page clone made using HTML and Tailwind CSS.
 
 ## Why I made this
 I am learning frontend development and wanted to practice real website design.
+
